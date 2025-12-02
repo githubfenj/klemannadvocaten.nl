@@ -1,0 +1,380 @@
+
+/* FJC Caching function */
+/* File: site_css/layout.css */
+
+html {
+	height: 100%;
+	overflow-y: scroll;
+}
+
+body {
+	margin: 0px;
+	text-align: left;
+	height: 100%;
+}
+
+div#fjc_copyright {
+	color: #123456;
+}
+
+span.copyright_companyname, span.copyright_design {
+	margin: 0 30px 0 0;
+}
+
+a.copyright_link {
+	text-decoration: none;
+	color: #123456;
+}
+/* FJC Caching function */
+/* File: site_css/layout/default.css */
+
+/* 
+    Document   : default
+    Created on : 3-okt-2013, 15:53:39
+    Author     : Bert Bakker
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.websitecontainer{
+	width: 988px;
+	line-height:1.5;
+}
+.sprite {
+	background-image: url('../../../site_images/sprite.png');
+}
+
+div.logo {
+	background-position: -2px -3px;
+	height: 304px;
+	width: 326px;
+	background-color:grey;
+	float:left;
+	
+}
+div.page {
+	
+	min-height: 574px;
+	width: 662px;
+	background-color:white;
+	float:left;
+	margin-top: 49px;
+}
+
+div.content{
+	/*height: 327px;*/
+	min-height: 322px;
+	width: 633px;
+	margin: 241px 14px 14px 14px;
+	
+color:#252525;
+
+
+/*text-shadow: #333 0px 0px 0.5px;*/
+}
+div.header_image {
+	height: 207px;
+	position: absolute;
+	overflow:hidden;
+	width: 633px;
+	margin:14px 14px 10px 14px;
+	
+}
+div.navigation .pointer{
+	height:11px;
+	width: 11px;
+	float:left;
+	background-position: -311px -309px;
+	margin-top: 20px;
+
+}
+div.navigation:hover .submenu {
+	display:block;
+}
+
+
+div.navigation
+{
+	  -webkit-font-smoothing: antialiased;
+	height: 57px;
+	width: 293px;
+	background-position: -5px -363px;
+/*	background-position: -8px -373px;*/
+	position: absolute;
+	left: 308px;
+	top: 207px;
+	color: white;
+	font-family: 'Caudex', serif;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-top: 18px;
+/*	top: 215px;*/
+	cursor: pointer;
+	
+
+}
+
+li.menu{
+
+	height: 54px;
+	width: 307px;
+	list-style: none;
+	background-position: -8px -371px;
+	
+}
+
+div.submenu
+{
+	height: 195px;
+	width: 265px;
+	position: absolute;
+	left: 9px;
+	top: 57px;
+	z-index:10;
+	display:none;
+	background-image:url('../../../site_images/blank.gif');
+}
+div.submenu ul li.active{
+
+	height:54px;
+	width:307px;
+	list-style: none;
+	background-position: -8px -373px;
+	margin-top: -14px;
+	margin-left: -10px;
+}
+
+
+div.submenu ul li{
+
+	height:29px;
+	width:256px;
+	list-style: none;
+	padding-top: 2px;
+	z-index: 2;
+}
+
+div.submenu ul li:hover span{
+	border-bottom: 1px solid #9fa615;
+}
+.menuPage .underlines{
+	border-bottom: 1px solid #9fa615;
+	margin-left: 9px;
+}
+div.menuPage
+{
+	text-shadow:1px 1px black;
+	
+}
+
+div.submenu ul li a{
+	
+	font-family: 'Caudex', serif; 
+	font-size: 16px;
+	text-decoration:none;
+	color:white;
+	text-shadow:1px 1px black;
+	display: block;
+	padding-left: 10px;
+	padding-top: 3px;
+	height:29px;
+	width:256px;
+	background-position: -14px -438px;
+}
+div.submenu ul li:first-child{
+		padding-top: 5px;
+}
+li.submenu a:hover{
+	border-bottom: 1px solid #9fa615;
+}
+div.border_top{
+	height: 84px;
+	width: 85px;
+	border-left:1px solid #9fa615;
+	border-top:1px solid #9fa615;
+	float:left;
+	margin:10px 0px 0px 10px;
+}
+div.border_bottom{
+	height: 84px;
+	width: 85px;
+	border-right:1px solid #9fa615;
+	border-bottom:1px solid #9fa615;
+	float: right;
+	margin-top: -92px;
+	margin-right: 10px	
+}
+
+div.header{
+	height: 215px;
+	font-size:67px;
+	color:#252525;
+	font-family: 'Caudex', serif;
+	color:white;
+		
+}
+div.header .first{
+	height:108px;
+	margin-left: 73px;
+	text-shadow: -5px -3px 8px rgba(0, 0, 0, 0.5);
+	white-space: nowrap;
+}
+div.header .second{
+	height: 96px;
+	margin-left: 480px;
+	margin-top: -23px;
+	text-shadow: -5px -3px 8px rgba(0, 0, 0, 0.5);
+	white-space: nowrap;
+}
+
+
+/*Google Iframe Plugin*/
+iframe{
+	position: absolute;
+	top: 276px;
+	left: 340px;
+}
+
+
+
+
+table#hoofd a {
+	/* background-color: transparent; */
+		font-size:12px;
+/*		font-family: 'Caudex', serif; */
+color:#252525;
+	font-family: 'arial';
+
+		color:#005953;
+	/* font-weight: bold; */
+	/* font-style: italic; */
+	font-weight:bold;
+	text-decoration: none;
+	/* font-family: Verdana, Arial, sans-serif; */
+	/* font-size: 12px; */
+	border-bottom:1px solid #9fa615;;
+}
+
+table#hoofd p {
+	color:#252525;
+	font-family: 'arial';
+	line-height: 20px;
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+
+}
+
+iframe{
+	z-index: 1;
+}
+.mapsnav{
+width: 110px;
+height: 16px;
+background: rgba(255, 255, 255, 0.86);
+position: absolute;
+top: 486px;
+left: 860px;
+text-align: center;
+font-size: 11px;
+color: #005953;
+font-family: 'Caudex', serif;
+font-weight: 600;
+cursor: default;
+}
+/* FJC Caching function */
+/* File: site_css/supersized.css */
+
+/*
+
+	Supersized - Fullscreen Slideshow jQuery Plugin
+	Version : 3.2.7
+	Site	: www.buildinternet.com/project/supersized
+	
+	Author	: Sam Dunn
+	Company : One Mighty Roar (www.onemightyroar.com)
+	License : MIT License / GPL License
+	
+*/
+
+* { margin:0; padding:0; }
+body { background:#111; height:100%; }
+	img { border:none; }
+	
+	#supersized-loader { position:absolute; top:50%; left:50%; z-index:0; width:60px; height:60px; margin:-30px 0 0 -30px; text-indent:-999em; background:url(../img/progress.gif) no-repeat center center;}
+	
+	#supersized {  display:block; position:fixed; left:0; top:0; overflow:hidden; z-index:-999; height:100%; width:100%; }
+		#supersized img { width:auto; height:auto; position:relative; display:none; outline:none; border:none; }
+			#supersized.speed img { -ms-interpolation-mode:nearest-neighbor; image-rendering: -moz-crisp-edges; }	/*Speed*/
+			#supersized.quality img { -ms-interpolation-mode:bicubic; image-rendering: optimizeQuality; }			/*Quality*/
+		
+		#supersized li { display:block; list-style:none; z-index:-30; position:fixed; overflow:hidden; top:0; left:0; width:100%; height:100%; background:#111; }
+		#supersized a { width:100%; height:100%; display:block; }
+			#supersized li.prevslide { z-index:-20; }
+			#supersized li.activeslide { z-index:-10; }
+			#supersized li.image-loading { background:#111 url(../img/progress.gif) no-repeat center center; width:100%; height:100%; }
+				#supersized li.image-loading img{ visibility:hidden; }
+			#supersized li.prevslide img, #supersized li.activeslide img{ display:inline; }
+/* FJC Caching function */
+/* File: site_css/layout/home.css */
+
+/* 
+    Document   : home
+    Created on : 4-okt-2013, 13:46:29
+    Author     : bert@st.fenj.nl
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+div.menu ul{
+	padding: 0;
+	margin: 0px;
+}
+div.menu ul.menu li{
+	height: 49px;
+	width: 289px;
+	list-style: none;
+	margin-top: 2px;
+}
+div.menu ul.menu li a{
+	font-size: 20px;
+	font-family: 'Georgia';
+	text-decoration: none;
+	color: white;
+	background-position: -3px -311px;
+	height: 37px;
+	width: 273px;
+	display: block;
+	
+	padding-left: 16px;
+	padding-top: 12px;
+	text-shadow: 1px 1px black;
+
+}
+div.menu ul.menu li a span{
+		/*FILTER VOOR IE8 or 9 */
+		
+}
+
+div.menu ul.menu li.menuItem1{
+	margin-top: 0px;
+}
+div.menu ul.menu li span {
+        display: inline-block;
+}
+div.menu ul.menu li:hover span{
+
+	border-bottom: 1px solid #9fa615;
+}
+div.menu
+{
+	-webkit-font-smoothing: antialiased;
+	float: left;
+	
+}
+div#slider
+{
+	position:absolute;
+	left:-620px;
+}
